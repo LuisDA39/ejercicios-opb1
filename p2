@@ -1,0 +1,14 @@
+// Segunda parte
+#include <iostream>
+using namespace std;
+
+class coche {
+public:
+  int puertas = 4;
+  int maspuertas() { return puertas + 1; }
+};
+
+int main() {
+  coche micoche;
+  cout << micoche.maspuertas();
+}
